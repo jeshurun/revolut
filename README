@@ -1,0 +1,7 @@
+Revolut Banking API
+
+Running the release jar: java -jar revolut-1.0.jar server banking-api.yml
+
+Get Accounts: curl -H "Content-Type: application/json" -X GET "http://localhost:9876/accounts/?user=Dave"
+
+Transfer Funds: curl -H "Content-Type: application/json" -X POST "http://localhost:9876/transfer/1/2/1234"

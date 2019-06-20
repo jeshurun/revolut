@@ -1,0 +1,6 @@
+{
+    "id": 1,
+    "type": "CHEQUING",
+    "balance": 12345,
+    "owner": "Dave"
+}
